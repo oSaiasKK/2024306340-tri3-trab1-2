@@ -1,0 +1,59 @@
+body header{
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    width: 20vh;
+    padding-bottom: 4vh;
+}
+
+div.triangulo{
+    height: 4vh;
+    width: 200vh;
+    background-color: green;
+    clip-path: polygon(2% 0, 99.7% 0, 100% 100%);
+}
+
+div.triangulo2{
+    height: 8vh;
+    width: 200vh;
+    background-color: darkgreen;
+    clip-path: polygon(5% 0, 99.7% 50%, 100% 100%);
+}
+
+footer div.triangulo{
+    height: 8vh;
+    width: 200vh;
+    background-color: green;
+    clip-path: polygon(0 0, .3% 50%, 95% 100%);
+}
+
+footer div.triangulo2{
+    height: 4vh;
+    width: 200vh;
+    background-color: darkgreen;
+    clip-path: polygon(0 0, .3% 100%, 98% 100%);
+}
+
+body footer{
+    padding-top: 4vh;
+}
+
+main div.corpo{
+    display: column;
+    columns: 2;
+    padding: 4vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 7vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 5vh;
+}
+
+p{
+    font-size: 4vh;
+}
